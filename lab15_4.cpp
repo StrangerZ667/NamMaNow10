@@ -20,13 +20,13 @@ int main(){
 
 void shuffle(int &a,int &b,int &c,int &d){
 	int f[4] = {a,b,c,d} ;
-	for(int j= 0 ; j < 2 ;j++ ) {
-	    int k = rand()% 4 ;
+	for(int j = 0 ; j < 2 ;j++ ) {
+	    int k = rand()% 4;
 	    int r = rand()% 4;
-	    swap(f[k],f[r]) ;
+	    swap(f[k],f[r]);
 	}
-	a = f[0] ;
-	b = f[1] ;
-	c = f[2] ;
-	d = f[3] ;
+	a = f[0];
+	b = f[1];
+	c = f[2];
+	d = f[3];
 }
