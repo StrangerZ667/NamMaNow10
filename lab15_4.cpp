@@ -19,7 +19,7 @@ int main(){
 }
 
 void shuffle(int &a,int &b,int &c,int &d){
-	int f[4] = {a,b,c,d} ;
+	int f[4] = {a,b,c,d};
 	for(int j = 0 ; j < 2 ;j++ ) {
 	    int k = rand()% 4;
 	    int r = rand()% 4;
